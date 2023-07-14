@@ -1,9 +1,8 @@
-import React, { useState } from "react";
-import PropTypes from 'prop-types';
+import React from "react";
 
 
 
-export const Repeated = props => {
+export const Repeated = (img = "", title="", description="", button="") => {
 
   return (
       <div className="card text-center h-100">
@@ -17,12 +16,4 @@ export const Repeated = props => {
         </div>
       </div>
   )
-}
-
-Repeated.propTypes = {
-  imageUrl: PropTypes.string,
-  title: PropTypes.string,
-  description: PropTypes.string,
-  buttonLabel: PropTypes.string,
-
 }
