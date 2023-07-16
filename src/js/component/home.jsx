@@ -1,7 +1,7 @@
 import React from "react";
 import { Jumbotron } from "./jumbotron";
 import { Navbar } from "./navbar";
-import { Card } from "./repeated";
+import { Card } from "./card";
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 import { Footer } from "./footer";
